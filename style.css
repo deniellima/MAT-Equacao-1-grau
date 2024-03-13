@@ -1,12 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
+
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: "Open sans", sans-serif;
+    font-weight: 500;
+    color:333
 }
 
 body {
-    background-color: #0a69ed;
+    background-color: #0074ef;
 }
 
 .start-screen,
@@ -25,11 +30,11 @@ button {
     border: none;
     outline: none;
     cursor: pointer;
+    font-size: 20px;
 }
 
 #start-button,
 #restart {
-    font-size: 1.3em;
     padding: 0.5em 1.8em;
     border-radius: 0.2em;
 }
