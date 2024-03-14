@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     padding: 0;
@@ -11,7 +11,7 @@
 }
 
 body {
-    background-color: #0074ef;
+    background-color: #2a9d8f;
 }
 
 .start-screen,
@@ -45,15 +45,15 @@ button {
 
 #display-container {
     background-color: #ffffff;
-    padding: 3.1em 1.8em;
+    padding: 1.8em 1.8em;
     width: 80%;
-    max-width: 37.5em;
+    max-width: 30em;
     margin: 0 auto;
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
-    border-radius: 0.6em;
+    border-radius: 0.5em;
 }
 
 .header {
@@ -62,22 +62,27 @@ button {
     justify-content: space-between;
     align-items: center;
     padding-bottom: 0.6em;
-    border-bottom: 0.1em solid #c0bfd2;
+    border-bottom: 0.1em solid #d4d4d4;
 }
 
 .timer-div {
-    background-color: #e1f5fe;
+    background-color: #2a9d8f;
+    height: 3em;
     width: 6em;
     border-radius: 0.2em;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1em;
+    color: #ffffff;
 }
 
 .question {
-    margin-bottom: 1.25em;
-    font-weight: 600;
+    font-family: "Noto Serif", serif;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+    text-align: center;
+    color: #666666;
 }
 
 .option-div {
@@ -88,8 +93,13 @@ button {
     text-align: left;
     outline: none;
     background: transparent;
-    border: 1px solid #c0bfd2;
-    border-radius: 0.3em;
+    border: 1px solid #d4d4d4;
+    border-radius: 0.2em;
+}
+
+.option-div:hover {
+    background-color: #f5f5f5;
+   
 }
 
 .option-div:disabled {
@@ -100,11 +110,12 @@ button {
 #next-button {
     font-size: 1em;
     margin-top: 1.5em;
-    background-color: #0a69ed;
+    background-color: #2a9d8f;
     color: #ffffff;
     padding: 0.7em 1.8em;
-    border-radius: 0.3em;
+    border-radius: 0.2em;
     float: right;
+    height: 3em;
 }
 
 .hide {
